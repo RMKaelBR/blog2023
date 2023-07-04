@@ -3,12 +3,12 @@
   <% @posts.each do |post| %>
     <li>
       <%= link_to post.title, post_path(post.id) %>
-      <%#<<a href="/posts/<%= post.id%><%#">>
-        <%#<<%= post.title %>
-      <%#<%= link_to post.title, post%>
-      <%#<</a%>
     </li>
   <% end %>
 </ul>
 
-<%= link_to "New Post", new_post_path %>
+<nav>
+  <ul>
+    <li><%= link_to "New Post", new_post_path %></li>
+  </ul>
+</nav>
