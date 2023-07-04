@@ -2,3 +2,11 @@
 
 <p><%= @post.body %></p>
 
+
+<%= link_to "Edit this Post", edit_post_path(@post) %>
+<br>
+<%= link_to "Delete this Post", post_path(@post), data: {
+              turbo_method: :delete,
+              turbo_confirm: "Are you sure?" }%>
+<br><br>
+<%= link_to "To Homepage", root_path %>
