@@ -1,14 +1,19 @@
-<h1>Posts</h1>
-<ul>
-  <% @posts.each do |post| %>
-    <li>
-      <%= link_to post.title, post_path(post.id) %>
-    </li>
-  <% end %>
-</ul>
-
 <nav>
   <ul>
     <li><%= link_to "New Post", new_post_path %></li>
   </ul>
 </nav>
+
+<h1>Posts</h1>
+
+<ul class='thePosts'>
+  <% @posts.each do |post| %>
+    <div class='postContent'>
+      <%= link_to post.title, post_path(post.id) %>
+      <br>
+      <br>
+      <%= post.body %>
+    </div>
+  <% end %>
+</ul>
+

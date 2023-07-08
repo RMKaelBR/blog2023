@@ -3,6 +3,24 @@ body {
   color: #334;
 }
 
+.thePosts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 100%;
+}
+.thePosts .postContent {
+  height: 200px;
+  width: 150px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+nav {
+  background-color: darkslategrey;
+  color: white;
+}
 nav ul {
   margin: 0;
   padding: 0;
@@ -15,6 +33,7 @@ nav a {
   display: block;
   padding: 6px 12px;
   text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=application.css.map */

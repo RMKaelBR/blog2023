@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+  @posts_index_url = 0
   def index
     @posts = Post.all
   end
