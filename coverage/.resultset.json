@@ -1,0 +1,30 @@
+{
+  "Minitest": {
+    "coverage": {
+      "/home/rmbresurreccion/workspace/blog2023/test/controllers/posts_controller_test.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/home/rmbresurreccion/workspace/blog2023/test/models/post_test.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1688781280
+  }
+}
